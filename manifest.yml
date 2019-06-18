@@ -1,0 +1,7 @@
+---
+applications:
+- name: spring-boot-hello
+  memory: 512M
+  instances: 1
+  buildpack: java_buildpack
+  path: /build/libs/helloworld-0.0.1-SNAPSHOT.jar
