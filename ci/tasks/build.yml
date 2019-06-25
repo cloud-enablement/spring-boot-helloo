@@ -16,3 +16,4 @@ run:
 params:
   TERM: -dumb
   GRADLE_OPTS: -Dorg.gradle.native=false
+  JAVA_OPTS: -Dhttp.proxyHost=isa-test-out.onefiserv.net -Dhttp.proxyPort=8080 -Dhttps.proxyHost=isa-test-out.onefiserv.net -Dhttps.proxyPort=8080
